@@ -3,6 +3,8 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 const fs = require("fs");
 
+app.use(express.static("public"));
+
 app.get("/", function (req, res) {
     res.send(
         "You have reached the FreshAFPunks metadata API! Query away, crypto trader!"
