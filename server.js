@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 const fs = require("fs");
 
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", function (req, res) {
     res.send(
