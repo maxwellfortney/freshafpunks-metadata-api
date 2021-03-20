@@ -1,1 +1,1 @@
-{"attributes":{"background":"red","face":"yellow","eyes":"santa","hat":"gray-beanie","mouth":"n-95","neck":"flower"},"image":"https://freshafpunks-metadata-api.herokuapp.com/images/1410.png"}
+{"attributes":[{"trait_type":"background","value":"green"},{"trait_type":"face","value":"light-green"},{"trait_type":"eyes","value":"eye-patch"},{"trait_type":"hat","value":"blue-beanie"},{"trait_type":"mouth","value":"fire-breathing"},{"trait_type":"neck","value":"flower"}],"image":"https://freshafpunks-metadata-api.herokuapp.com/images/1410.png"}

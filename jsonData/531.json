@@ -1,1 +1,1 @@
-{"attributes":{"background":"blue","face":"beige","eyes":"eye-patch","hat":"gray-beanie","mouth":"rainbow-pipe","neck":"collar"},"image":"https://freshafpunks-metadata-api.herokuapp.com/images/531.png"}
+{"attributes":[{"trait_type":"background","value":"blue"},{"trait_type":"face","value":"light-green"},{"trait_type":"eyes","value":"sunglasses"},{"trait_type":"hat","value":"blue-beanie"},{"trait_type":"mouth","value":"rainbow-pipe"},{"trait_type":"neck","value":"collar"}],"image":"https://freshafpunks-metadata-api.herokuapp.com/images/531.png"}

@@ -28,6 +28,18 @@ app.get("/api/token/:tokenID", function (req, res) {
     });
 });
 
+app.get("/api/store-metadata", (res, req) => {
+    fs.readFile(`./store-metadata.json`, "utf8", (err, jsonString) => {
+        if (err) {
+            console.log("File read failed:", err);
+            res.json(err);
+            return;
+        }
+        console.log("File data:", jsonString);
+        res.json(JSON.parse(jsonString));
+    });
+});
+
 app.listen(PORT, () => {
     console.log(`Example app listening at http://localhost:${PORT}`);
 });
