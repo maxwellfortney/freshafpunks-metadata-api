@@ -24,7 +24,7 @@ app.get("/api/token/:tokenID", function (req, res) {
             return;
         }
         console.log("File data:", jsonString);
-        res.json(JSON.parse(jsonString));
+        res.send(JSON.parse(jsonString));
     });
 });
 
@@ -36,7 +36,7 @@ app.get("/api/store-metadata", (res, req) => {
             return;
         }
         console.log("File data:", jsonString);
-        res.json(JSON.parse(jsonString));
+        res.send(JSON.parse(jsonString));
     });
 });
 
