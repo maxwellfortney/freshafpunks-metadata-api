@@ -28,7 +28,7 @@ app.get("/api/token/:tokenID", function (req, res) {
     });
 });
 
-app.get("/api/store-metadata", (res, req) => {
+app.get("/api/store-metadata", (req, res) => {
     fs.readFile(`./store-metadata.json`, "utf8", (err, jsonString) => {
         if (err) {
             console.log("File read failed:", err);
