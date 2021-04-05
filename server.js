@@ -34,7 +34,7 @@ app.route("/lockedIDs")
 
         setTimeout(() => {
             removeLockedIDs(req.body);
-        }, 1000 * 180);
+        }, 1000 * 60 * 7);
         res.send("Locked IDs");
     });
 
